@@ -1,0 +1,37 @@
+What You're Aiming For
+
+Section 1: General Awareness
+Web Development Basics:
+What is web development, and why is it essential in the context of the internet?
+
+	Ans: Web development is the process of creating websites or web apps and it is essential because that is the medium through which we interact with the internet
+
+HTML Knowledge:
+Have you heard of HTML? If yes, what does HTML stand for, and what is its primary purpose in web development?
+
+	Ans: HTML stands for Hyper Text Markup Language. It is the foundation of web sites< it is used to create the formats and layouts of the website
+
+Section 2: Familiarity with CSS
+CSS Understanding:
+Are you familiar with CSS? If yes, briefly explain what CSS is used for in web development.
+
+	Ans: CSS is used to give styling to the web pages created with HTML. Styling can include animations,transitions and lots more
+
+Section 3: JavaScript and Its Importance
+Introduction to JavaScript:
+Have you heard of JavaScript? If yes, what is JavaScript, and why is it crucial for building interactive websites?
+
+	Ans: JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. It is the programming language used to create interactive elements
+
+Section 4: Introduction to React and Node.js
+React and Node.js Awareness:
+Are you familiar with React and Node.js? If yes, provide a brief description of what React and Node.js are commonly used for in web development.
+
+	Ans: React is a javascript framework used to create web apps for multiple platforms eg desktop,mobile and web. React is used to create the frontend of websites while Node.js is used to create the backend.
+Node.js is an open-source, cross-platform runtime environment that allows developers to create all kinds of server-side tools and applications in JavaScript
+
+Section 5: Bonus Question
+Learning Intentions:
+Why do you want to learn web development, and what do you hope to achieve by acquiring skills in HTML, CSS, JavaScript, React, and Node.js?
+
+	Ans: I want to be able to build websites efortlessly and to progress in a career in software development. I want to be able to use these skills to start a career, level up and grow in this field
