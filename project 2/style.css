@@ -1,0 +1,10 @@
+.navbar-brand{
+    border: 1px solid green;
+    font-size: 30px !important;
+    font-family: cursive;
+    color: ;
+}
+
+.navright{
+    float: right !important;
+}
