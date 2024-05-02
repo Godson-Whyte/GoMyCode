@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('skydive2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav span{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 10px 0 0 0;
+}
+
+.title{
+    color: lightgrey;
+}
+
+#desc{
+    text-align: center;
+    font-size: 70px;
+    color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ nav ul li{
+    padding: 0 20px;
+    list-style: none;
+    margin: 0 10px;
+    color: lightgrey;
+}
+
+button{
+    background-color: lightgreen;
+    color: white;
+    height: 50px;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 500px;
+}
+
+button:hover{
+    background-color: rgba(144, 238, 144, 0);
+    color: lightgreen;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav ul li a:visited{
+    color: white;
+}
+
+nav ul li a:visited:hover{
+    text-decoration: none;
+}
+
+nav ul li a:active{
+    color: white;
+}
+
+nav ul li a:active:hover{
+    text-decoration: none;
+}
+
+nav ul li a:focus{
+    color: white;
+}
+
+nav ul li a:focus:hover{
+    text-decoration: none;
+}
+
+nav ul li a:visited:focus{
+    color: white;
+}
+
+nav ul li a:visited:focus:hover{
+    text-decoration: none;
+}
+
+nav ul li a:active:focus{
+    color: white;
+}
+
+nav ul li a:active:focus:hover{
+    text-decoration: none;
+}
+
+nav ul li a:focus:focus{
+    color: white;
+}
+
+nav ul li a:focus:focus:hover{
+    text-decoration: none;
+}
+
+nav ul li a:visited:focus:focus{
+    color: white;
+} 
