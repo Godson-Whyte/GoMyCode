@@ -1,0 +1,115 @@
+body{
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 0;
+    background-color: #E4EEF8;
+}
+.Navbar{
+    background-color: #E4EEF8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navbar .left{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 10px; */
+    .words{
+        padding-left: 50px;
+    }
+    .icon{
+        display: flex;
+
+        h3{
+            font-size: x-large;
+            margin: 15px 5px;
+        }
+        img{
+            width: 30px;
+            height: 30px;
+            margin: 15px 5px;
+        }
+    }
+}
+
+.Navbar a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 23px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+} 
+
+.btn-1{
+    margin: 20px 20px;
+    border: 2px solid skyblue;
+    color: skyblue;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+
+.content{
+    margin: 50px 400px;
+    text-align: center;
+    
+    p{
+        color: gray;
+        font-weight: bold;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    input{
+        height: 40px;
+        width: 200px;
+        border: none;
+        color: gray;
+        padding-left: 20px;
+        font-weight: bold;
+        border-radius: 2px;
+    }
+
+    .btn-2{
+        background-color: orangered;
+        height: 40px;
+        width: 140px;
+        color: white;
+        border: none;
+        border-radius: 2px;
+        font-weight: bold;
+        
+        :hover {
+            background-color: #8f3d1f;
+            cursor: pointer;
+        }
+    }
+    
+}
+
+.bottom{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    .col{
+        display: flex;
+        /* border: 1px solid black; */
+
+        svg{
+            width: 30px;
+            height: 30px;
+            margin: 15px 5px;
+            padding-right: 10px;
+        }
+    }
+}
