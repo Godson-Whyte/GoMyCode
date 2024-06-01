@@ -181,3 +181,105 @@ function james(x,y){
     return console.log(x / y);
 }
 james()
+
+//If Statement: if statement will only execute the logic in its block of code if the condition is true
+function checkScore(){
+let marks = prompt('Enter your score');
+    if(marks <= 30){
+        alert(`you failed the test`);
+    }
+
+    else if (marks >= 31 && marks <= 50){
+        alert(`you passed the test`);
+    }
+
+    else if (marks >= 51 && marks <= 75){
+        alert(`you did great`);
+    }
+
+    else if (marks >= 76 && marks <= 100){
+        alert(`you did excellently`);
+    }
+
+    else{
+        alert('Enter a valid score');
+    }
+}
+//Switch Statement
+// let day = prompt('Enter a day');
+// switch(day){
+//     case 'Monday':
+//         alert('Its Monday');
+//         break;
+//     case 'Tuesday':
+//         alert('Its Tuesday');
+//         break;
+//     case 'Wednesday':
+//         alert('Its Wednesday');
+//         break;
+//     case 'Thursday':
+//         alert('Its Thursday');
+//         break;
+//     case 'Friday':
+//         alert('Its Friday');
+//         break;
+//     case 'Saturday':
+//         alert('Its Saturday');
+// }
+
+function decodeColor(color){
+    switch (color) {
+        case 1: console.log('Red is your color');
+            break;
+        case 2: console.log('Blue is your color');
+            break;
+        case 'x': console.log('Yellow is your color');
+            break;
+        case 'y': console.log('Black is your color');
+            break;
+    
+        default:
+            console.log('Color is not defined');
+    }
+}
+
+decodeColor(3);
+
+//Ternary Operators
+let marks = 75;
+let result = (marks >= 60)? 'passed' : 'failed';
+console.log(result);
+
+let numb = -6
+let ans = (numb < 0)? 'Negative' : (numb > 0) ? 'Positive' : 'equal number';
+console.log(ans);
+
+
+
+
+//Chained Tenary Operators
+let number1 = 5;   // Positive number
+let number2 = -3;  // Negative number
+let number3 = 0;   // Zero
+
+let result1 = number1 > 0 ? number1 :
+              number1 < 0 ? number1 :
+              0;
+
+let result2 = number2 > 0 ? number2 :
+              number2 < 0 ? number2 :
+              0;
+
+let result3 = number3 > 0 ? number3 :
+              number3 < 0 ? number3 :
+              0;
+
+console.log(result1); // Output: 5
+console.log(result2); // Output: -3
+console.log(result3); // Output: 0
+
+
+//DOM Operators
+let but = document.getElementsByTagName("button");
+
+console.log(but);
