@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Header Section */
+header {
+    background-color: #343a40;
+}
+
+.lux{
+    color:skyblue;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    background-image: url('img/hero-chair.jfif'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    font-size: 1.2rem;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    background-color: #007bff;
+    border: none;
+}
+
+.hero .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Product Section */
+.card {
+    border: none;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Section */
+footer {
+    background-color: #343a40;
+}
+
+footer .fab {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+footer .fab:hover {
+    color: #B9CBEF;
+}
