@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 95.5%;
+            top: 0;
+            z-index: 1000;
+        }
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 20px;
+        }
+        #navbar a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+        #navbar a:hover {
+            text-decoration: underline;
+        }
+        #welcome-section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: url(img.jpg) no-repeat center center/cover;
+            color: white;
+            h1{
+                color:wheat;
+                font-size: 70px;
+                font-weight: bold;
+            }
+        }
+        #projects {
+            padding: 50px 20px;
+            background-color: #f4f4f4;
+        }
+        .project-tile {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project-tile a {
+            color: #333;
+            text-decoration: none;
+        }
+        .project-tile a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        @media (max-width: 600px) {
+            #navbar {
+                flex-direction: column;
+            }
+            #navbar a {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header id="navbar">
+        <div>My Portfolio</div>
+        <nav>
+            <a href="#welcome-section">Welcome</a>
+            <a href="#projects">Projects</a>
+            <a href="https://github.com/godson-whyte" id="profile-link" target="_blank">Github</a>
+        </nav>
+    </header>
+
+    <section id="welcome-section">
+        <h1>Welcome to Godson Kalu-Whyte's Portfolio</h1>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-tile">
+            <a href="https://github.com/Godson-Whyte/GoMyCode/tree/master/Checkpoint%202" target="_blank">Portfolio website</a>
+            <p>Built a portfolio website using HTML and CSS.</p>
+        </div>
+        <div class="project-tile">
+            <a href="https://github.com/Godson-Whyte/GoMyCode/tree/master/Checkpoint%203" target="_blank">Travel Agency</a>
+            <p>Built a travel agency website using HTML, and Tailwind CSS.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <footer>
+        &copy; 2024 Godson Kalu-Whyte. All rights reserved.
+    </footer>
+
+</body>
+</html>

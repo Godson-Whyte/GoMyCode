@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        #header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        #header-img {
+            width: 50px;
+        }
+        #nav-bar {
+            display: flex;
+        }
+        .nav-link {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        .container {
+            margin-top: 70px;
+            padding: 20px;
+        }
+        #video {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            display: block;
+        }
+        #form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+        #email {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+            max-width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #submit {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #submit:hover {
+            background-color: #45a049;
+        }
+        @media (max-width: 600px) {
+            #header {
+                flex-direction: column;
+            }
+            #nav-bar {
+                flex-direction: column;
+                align-items: center;
+            }
+            .nav-link {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header id="header">
+        <img src="https://via.placeholder.com/50" alt="Logo" id="header-img">
+        <nav id="nav-bar">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#how-it-works" class="nav-link">How it Works</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="features">
+            <h2>Features</h2>
+            <p>Our product offers a variety of features that you will love!</p>
+        </section>
+
+        <section id="how-it-works">
+            <h2>How it Works</h2>
+            <p>Learn how our product can help you achieve your goals.</p>
+            <video id="video" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="pricing">
+            <h2>Pricing</h2>
+            <p>Check out our competitive pricing plans.</p>
+        </section>
+
+        <section id="subscription">
+            <h2>Subscribe to our Newsletter</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                <input type="submit" id="submit" value="Subscribe">
+            </form>
+        </section>
+    </div>
+
+</body>
+</html>

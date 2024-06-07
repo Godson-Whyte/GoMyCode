@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute Page</title>
+  <style>
+    #main {
+      text-align: center;
+    }
+    #img-div {
+      margin: auto;
+      max-width: 80%; /* Adjust as needed */
+    }
+    #image {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: auto;
+    }
+    #img-caption {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    #tribute-info {
+      margin-top: 20px;
+    }
+    #tribute-link {
+      margin-top: 20px;
+    }
+    
+    /* Responsive CSS */
+    @media only screen and (max-width: 600px) {
+      #img-div {
+        max-width: 90%;
+      }
+    }
+    
+    @media only screen and (max-width: 400px) {
+      #img-div {
+        max-width: 95%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main id="main">
+    <div id="title">
+      <h1>Tribute to Steve Hawkin</h1>
+    </div>
+    <div id="img-div">
+      <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Stephen_Hawking.StarChild.jpg/220px-Stephen_Hawking.StarChild.jpg" alt="Image Description">
+      <figcaption id="img-caption">Steve Hawkin</figcaption>
+    </div>
+    <div id="tribute-info">
+      <p style="font-size: x-large;">Information about Steve Hawkin's lifetime.</p>
+    </div>
+      
+      <a href="https://en.wikipedia.org/wiki/Steve_Hawkin" id="tribute-link" target="_blank">More Information</a>
+    
+  </main>
+</body>
+</html>
