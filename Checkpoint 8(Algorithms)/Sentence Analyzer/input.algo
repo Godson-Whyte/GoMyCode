@@ -1,0 +1,31 @@
+Algorithm: Sentence Analysis
+
+Input: A sentence ending with a period (.)
+Output: Length of the sentence, number of words, number of vowels
+
+1. Initialize three counters:
+   - length_counter to count characters in the sentence
+   - word_counter to count words separated by spaces
+   - vowel_counter to count vowels (a, e, i, o, u)
+
+2. Read the input sentence character by character until the period (.) is encountered:
+   a. Increment length_counter for each character read.
+   b. If the character is a space (' '), increment word_counter to count words.
+   c. Check if the character is a vowel ('a', 'e', 'i', 'o', 'u' or uppercase variants):
+      - Increment vowel_counter if the character is a vowel.
+
+3. After reaching the period (.), include it in the length count and end the input reading.
+
+4. Output the following results:
+   - Total length of the sentence (including spaces and the period).
+   - Number of words counted based on spaces.
+   - Number of vowels found within the sentence.
+
+5. End.
+
+Example:
+Input: "Hello, how are you today."
+Output:
+- Sentence Length: 24
+- Number of Words: 5
+- Number of Vowels: 7
