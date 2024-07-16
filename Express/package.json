@@ -1,0 +1,21 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon Goals/index.js"
+  },
+  "keywords": [
+    "e-commerce"
+  ],
+  "author": "Godson Whyte",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4"
+  }
+}
