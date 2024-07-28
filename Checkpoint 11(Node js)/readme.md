@@ -9,7 +9,7 @@ This project includes a series of tasks designed to practice basic Node.js funct
 ## Installation
 
  **Clone the repository:**
-   git clone https://github.com/godson-whyte/Checkpoint 11(Node js).git
+   git clone https://github.com/Godson-Whyte/GoMyCode/tree/master/Checkpoint%2011(Node%20js).git
    cd Checkpoint 11(Node js)
 
 
