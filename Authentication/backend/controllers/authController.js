@@ -76,6 +76,27 @@ const getAllUsers = async (req, res) => {
     }
 };
 
+const editUser = async(req, res) => {
+    try {
+        const { username, email, password, role } = req.body;
+        const user = await User.findById(req.params.id);
+    
+        if (!user) {
+          return res.status(404).json({ message: 'User not found' });
+        }
+    
+        user.name = username;
+        user.email = email;
+        user.password = password;
+        user.role = role;
+    
+        const updatedUser = await user.save();
+        res.json(updatedUser);
+      } catch (err) {
+        res.status(400).json({ message: err.message });
+      }
+}
+
 module.exports = {
-    login, verifyToken, registerUser, getAllUsers
+    login, verifyToken, registerUser, getAllUsers, editUser,
 }

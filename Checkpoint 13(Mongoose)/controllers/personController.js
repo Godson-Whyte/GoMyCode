@@ -1,5 +1,3 @@
-// controllers/personController.js
-
 const Person = require('../models/Person');
 
 // Create a new person
