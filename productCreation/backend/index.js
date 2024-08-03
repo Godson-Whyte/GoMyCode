@@ -3,7 +3,7 @@ import dotenv from 'dotenv'
 import connectDB from './config/connection.js'
 import userRoutes from './routes/routes.js'
 const PORT = process.env.PORT || 5000
-import bodyParser from 'body-Parser'
+import bodyParser from 'body-parser'
 
 dotenv.config()
 connectDB()

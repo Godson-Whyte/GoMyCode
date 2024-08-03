@@ -12,7 +12,7 @@ export const products = async(req, res) => {
         })
         await product.save();
         res.status(201).json(product)
-    }catch (error) {
+    }catch (err) {
         console.error(err);
         res.status(500).send(`Server Error`)
     }
