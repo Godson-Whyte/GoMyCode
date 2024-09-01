@@ -35,4 +35,4 @@ function updateClock(){
     }, 1000)
 }
 
-// updateClock()
+updateClock()
